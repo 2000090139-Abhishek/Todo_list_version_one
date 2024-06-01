@@ -1,7 +1,7 @@
 function AddTodo() {
   return (
     <div class="container text-center">
-      <div class="row">
+      <div class="row Ab-row">
         <div class="col-6">
           <input type="text" placeholder=" Enter Todo Work"></input>
         </div>
