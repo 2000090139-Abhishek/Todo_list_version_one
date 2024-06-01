@@ -1,23 +1,31 @@
+import AddTodo from "./components/AddTodo";
+import AppName from "./components/AppName";
 
 function App() {
   return (
     <center class="todo-container">
-      <h1>Todo List App</h1>
+      <p><AppName></AppName></p>
+      <AddTodo></AddTodo>
+
+      
+      <br/>
 
       <div class="container text-center">
         <div class="row">
           <div class="col-6">
-            <input type = "text" placeholder=" Enter Todo Work"></input>
+            Buy Milk
           </div>
           <div class="col">
-          <input type="date" placeholder="YYYY/MM/DD"></input>
-          
+          4/10/2023
           </div>
           <div class="col">
-          <button type="button" class="btn btn-success">ADD</button>
+          <button type="button" class="btn btn-danger">
+          Delete</button>
           </div>
         </div>
       </div>
+
+
     </center>
   );
   
