@@ -13,6 +13,10 @@ input {
   text-align: left;
 }
 
+.Ab-button {
+  min-width: 80px;
+}
+
 .Ab-row{
   margin: 10px 5px;
 }
